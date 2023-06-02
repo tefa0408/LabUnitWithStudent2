@@ -9,7 +9,7 @@ import com.example.danp2023room.entities.StudentEntity
 
 
 @Database(
-    entities = [StudentEntity::class, BookEntity::class],
+    entities = [StudentEntity::class, BookEntity::class, UnitDao::class],
     version = 4
 )
 abstract class AppDatabase : RoomDatabase() {
